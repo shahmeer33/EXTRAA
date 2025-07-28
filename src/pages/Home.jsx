@@ -1,6 +1,7 @@
 import React from 'react'
 import { Categories } from '../assets/mockData'
 import {useState} from "react"
+import CategorySection from '../components/CategorySection'
 
 import InfoSection from '../components/InfoSection'
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
 
   <div className='hero-image md:w-9/12 mt-8 md:mt-0 h-96 relative'>
 
-  <img src="/heroo-image.png"  alt="" className='h-full w-full'  />
+  <img src="/herooo-image.png"  alt="" className='h-full w-full'  />
   <div className='absolute top-16 left-8 '  >
    <p className='text-gray-600 mb-4 uppercase'  > wholesale</p>
    <h2 className='text-3xl font-bold' >WELCOME TO E-SHOP</h2>
@@ -47,6 +48,7 @@ const Home = () => {
   </div>
 
 <InfoSection/>
+<CategorySection/>
     </>
     
 
